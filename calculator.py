@@ -12,7 +12,11 @@ class Calculator:
     def divide(self, num_1, num_2):
         return num_1 / num_2
 #method of main calculator
+    def main(self):
+        while True:
+            try:
 #ask user input 1st number
+                num_1 = float(input("Enter first number: "))
 #ask user input of operation
 #ask user input 2nd number
 #if add, add 2 numbers
