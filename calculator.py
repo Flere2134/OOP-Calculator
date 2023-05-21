@@ -18,6 +18,7 @@ class Calculator:
 #ask user input 1st number
                 num_1 = float(input("Enter first number: "))
 #ask user input of operation
+                operation = input("Enter operation symbol: ")
 #ask user input 2nd number
 #if add, add 2 numbers
 #if minus, subtract 2 numbers
