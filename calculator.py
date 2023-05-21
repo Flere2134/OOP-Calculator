@@ -22,9 +22,22 @@ class Calculator:
 #ask user input 2nd number
                 num_2 = float(input("Enter first number: "))
 #if add, add 2 numbers
+                answer = 0
+                if operation == "+":
+                    answer = self.add(num_1, num_2)
 #if minus, subtract 2 numbers
+                elif operation == "-":
+                    answer = self.subtract(num_1, num_2)
 #if multiply, multiply 2 numbers
+                elif operation == "*":
+                    answer = self.multiply(num_1, num_2)
 #if divide, divide 2 numbers
+                elif operation == "/":
+                    answer = self.divide(num_1, num_2)
+                else:
+                    print("Invalid input. Choose an operation by entering a valid symbol (+, -, *, /).")
+                    continue
 #print output
+
 #try again feature
 #exception handling for invalid inputs
