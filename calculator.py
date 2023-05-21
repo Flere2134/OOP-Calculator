@@ -38,6 +38,10 @@ class Calculator:
                     print("Invalid input. Choose an operation by entering a valid symbol (+, -, *, /).")
                     continue
 #print output
-
+                print("Result = ", answer)
 #try again feature
 #exception handling for invalid inputs
+            except ZeroDivisionError:
+                print("Syntax Error. Cannot be divided by zero. Please try again!")
+            except ValueError:
+                print("INVALID INPUT! PLEASE ENTER A NUMBER")
