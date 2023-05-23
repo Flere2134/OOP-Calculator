@@ -1,6 +1,6 @@
 # OOP-Calculator
 
 ### Information:
-= Simple Calculator in OOP
+- Simple Calculator in OOP
 - has try again feature
 - handles error
