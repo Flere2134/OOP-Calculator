@@ -17,7 +17,7 @@ elif operation == "-":
 elif operation == "*":
     answer = calc.multiply(num_1, num_2)
 elif operation == "/":
-    answer = calc.divide(num_1, num_2)
+    answer = calc_2.divide(num_1, num_2)
 elif operation == "**":
     answer = calc_2.exponent(num_1, num_2)
 else:
