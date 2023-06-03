@@ -5,3 +5,5 @@ class UserInterface:
     def operation(self):
         operation = input("Enter operation symbol (+, -, *, /, **): ")
         return operation
+    def result_display(self, answer):
+        print(answer)
