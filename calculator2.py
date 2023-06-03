@@ -1,4 +1,5 @@
 from calculator import Calculator
 
 class CalculatorTwo(Calculator):
-    pass
+    def exponent(self, num_1, num_2):
+        return num_1 ** num_2
